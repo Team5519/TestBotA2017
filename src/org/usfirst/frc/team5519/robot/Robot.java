@@ -8,6 +8,8 @@ import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import org.usfirst.frc.team5519.subsystems.*;
+
 
 /**
  * This is a demo program showing the use of the RobotDrive class.
@@ -27,6 +29,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
  */
 public class Robot extends SampleRobot {
     RobotDrive myRobot;
+    TwoMotorDrive myTestRobot;
     Joystick stick;
     final String defaultAuto = "Default";
     final String customAuto = "My Auto";
